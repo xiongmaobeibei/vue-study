@@ -1,12 +1,15 @@
 <template>
   <div id="app">
-    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+    <img alt="Vue logo" src="./assets/logo.png">
     <router-view/>
     <a href="#/wan">wan</a>
     <br />
     <a href="#/hello">hello</a>
     <br />
     <a href="/">/</a>
+    <br />
+    <a href="#/list">list</a>
+    <List />
     <!-- <HelloWorld v-if="isShowHelloWorld"/>
     <HW />
     <wo-ai-ni :firstName="firstName1" v-if="!isShowHelloWorld"/> -->
@@ -19,13 +22,15 @@
 import HelloWorld from './components/HelloWorld.vue'
 import HW from './components/hw.vue'
 import WoAiNi from './components/woaini.vue'
+import List from './components/List.vue'
 
 export default {
   name: 'app',
   components: {
     HelloWorld,
     HW,
-    WoAiNi
+    WoAiNi,
+    List
   },
   data () {
     return {
