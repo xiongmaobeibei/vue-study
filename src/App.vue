@@ -11,7 +11,6 @@
     <a href="#/list">list</a>
     <List />
     <!-- <HelloWorld v-if="isShowHelloWorld"/>
-    <HW />
     <wo-ai-ni :firstName="firstName1" v-if="!isShowHelloWorld"/> -->
     <!-- <button @click="handleOnClickChange">click me to change page</button>
     <button @click="handleOnClickChangeWords">click me to change wo ai ni</button> -->
